@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rectangular Boxes with Names</title>
+  <style>
+    /* Style for the container holding the boxes */
+    .box-container {
+      display: flex; /* Use flexbox to create a row layout */
+    }
+
+    /* Style for each rectangular box */
+    .box {
+      width: 150px; /* Set the width of the box */
+      height: 80px; /* Set the height of the box */
+      background-color: #3498db; /* Set the background color */
+      margin: 10px; /* Add margin to create space between boxes */
+      border: 1px solid #2980b9; /* Add a border for visual separation */
+      box-sizing: border-box; /* Include padding and border in the box dimensions */
+      display: flex; /* Use flexbox to align items vertically */
+      justify-content: center; /* Center the text horizontally */
+      align-items: center; /* Center the text vertically */
+      color: #fff; /* Set text color to white */
+      font-family: Arial, sans-serif; /* Specify the font family */
+    }
+  </style>
+</head>
+<body>
+  <!-- Container for the boxes -->
+  <div class="box-container">
+    <!-- Rectangular boxes with names -->
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <!-- Add more boxes as needed -->
+  </div>
+</body>
+</html>

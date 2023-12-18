@@ -99,7 +99,7 @@ display: block;
     color: white;
     
  }
- .maatsLogoImg, .addr_social-ico{
+  .addr_social-ico{
    display: inline-block;
    width: auto;
  }
@@ -154,7 +154,7 @@ height: 80px;
     text-shadow: 0 1px 1px #444;
  }
  .dropdown {
-   float: left;
+   float: none;
    overflow: hidden;
  }
  
